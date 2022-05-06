@@ -21,7 +21,7 @@
    INSTALLEXTRA+=" initramfs-tools-core python3-smbus python3-usb python3-libusb1"
   fi
 
-  apt -y install rpiboot bridge-utils screen minicom subversion git libusb-1.0-0-dev nfs-kernel-server busybox python3-smbus $INSTALLEXTRA
+  apt -y install rpiboot bridge-utils screen minicom subversion git libusb-1.0-0-dev nfs-kernel-server busybox python3-smbus python3-usb $INSTALLEXTRA
 
   # Setup ready for iptables for NAT for NAT/WiFi use
   # Preseed answers for iptables-persistent install
